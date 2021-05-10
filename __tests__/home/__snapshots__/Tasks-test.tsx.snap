@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tasks snapshot 1`] = `
+<RCTScrollView
+  ListEmptyComponent={
+    <ListEmptyComponent
+      message="No task found"
+    />
+  }
+  data={
+    Array [
+      Object {
+        "data": Array [],
+        "title": "Tasks",
+      },
+      Object {
+        "data": Array [],
+        "title": "Completed",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={
+    Array [
+      0,
+      2,
+    ]
+  }
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text
+        style={
+          Object {
+            "color": "#736F81",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "marginLeft": 10,
+          }
+        }
+      >
+        Tasks
+      </Text>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    />
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text
+        style={
+          Object {
+            "color": "#736F81",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "marginLeft": 10,
+          }
+        }
+      >
+        Completed
+      </Text>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    />
+  </View>
+</RCTScrollView>
+`;

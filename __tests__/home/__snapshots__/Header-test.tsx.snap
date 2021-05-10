@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "margin": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 7,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#ABA2B0",
+          "fontFamily": "Gilroy SemiBold",
+          "fontSize": 23,
+        }
+      }
+    >
+      Hello,
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Gilroy SemiBold",
+          "fontSize": 23,
+        }
+      }
+    >
+      Adbur Rahman
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "flex": 2,
+      }
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../src/asserts/images/user.jpg",
+        }
+      }
+      style={
+        Object {
+          "borderRadius": 50,
+          "height": 50,
+          "margin": 5,
+          "width": 50,
+        }
+      }
+    />
+  </View>
+</View>
+`;

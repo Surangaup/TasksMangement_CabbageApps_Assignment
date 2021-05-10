@@ -1,0 +1,505 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppIntro snapshot 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "flex": 7,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <RCTScrollView
+        bottomButton={false}
+        bounces={false}
+        data={
+          Array [
+            Object {
+              "description": "Let's organize your works with priority and do everything without stress.",
+              "image": Object {
+                "testUri": "../../../src/asserts/images/intro_1.png",
+              },
+              "key": 1,
+              "title": "Organize your works",
+            },
+            Object {
+              "description": "2nd Description.",
+              "image": Object {
+                "testUri": "../../../src/asserts/images/intro_1.png",
+              },
+              "key": 2,
+              "title": "Title 2",
+            },
+          ]
+        }
+        disableVirtualization={false}
+        dotClickEnabled={true}
+        extraData={1}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={true}
+        initialNumToRender={2}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        onContentSizeChange={[Function]}
+        onDone={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        pagingEnabled={true}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        showDoneButton={true}
+        showNextButton={true}
+        showPrevButton={false}
+        showSkipButton={false}
+        showsHorizontalScrollIndicator={false}
+        stickyHeaderIndices={Array []}
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "width": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Image
+                  resizeMethod="resize"
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "testUri": "../../../src/asserts/images/intro_1.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 240,
+                      "width": 204,
+                    }
+                  }
+                />
+                <Text
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontFamily": "Gilroy SemiBold",
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  Organize your works
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "#9391A1",
+                      "fontFamily": "Gilroy Lite",
+                      "padding": 10,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Let's organize your works with priority and do everything without stress.
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "width": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Image
+                  resizeMethod="resize"
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "testUri": "../../../src/asserts/images/intro_1.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 240,
+                      "width": 204,
+                    }
+                  }
+                />
+                <Text
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontFamily": "Gilroy SemiBold",
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  Title 2
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "#9391A1",
+                      "fontFamily": "Gilroy Lite",
+                      "padding": 10,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  2nd Description.
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+      <View
+        style={
+          Object {
+            "bottom": 16,
+            "justifyContent": "center",
+            "left": 16,
+            "position": "absolute",
+            "right": 16,
+          }
+        }
+      >
+        <RCTSafeAreaView
+          emulateUnlessSupported={true}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 16,
+                "justifyContent": "center",
+                "margin": 16,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#FD92A1",
+                  "borderRadius": 5,
+                  "height": 10,
+                  "marginHorizontal": 4,
+                  "opacity": 1,
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 0, 0, .2)",
+                  "borderRadius": 5,
+                  "height": 10,
+                  "marginHorizontal": 4,
+                  "opacity": 1,
+                  "width": 10,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "position": "absolute",
+                "right": 0,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 18,
+                    "padding": 12,
+                  }
+                }
+              >
+                Next
+              </Text>
+            </View>
+          </View>
+        </RCTSafeAreaView>
+      </View>
+    </View>
+  </View>,
+  <View
+    style={
+      Object {
+        "flex": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <RNGestureHandlerButton
+        collapsable={false}
+        onGestureEvent={[Function]}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        onHandlerStateChange={[Function]}
+        rippleColor={0}
+      >
+        <View
+          accessible={true}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#f9f9fb",
+              "borderRadius": 15,
+              "flexDirection": "row",
+              "height": 50,
+              "marginHorizontal": "5%",
+              "marginVertical": 5,
+              "opacity": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Image
+            height={20}
+            source={
+              Object {
+                "testUri": "../../../src/asserts/images/facebook.png",
+              }
+            }
+            style={
+              Object {
+                "marginLeft": 5,
+              }
+            }
+            width={20}
+          />
+          <Text
+            style={
+              Object {
+                "flex": 1,
+                "fontFamily": "Gilroy SemiBold",
+                "fontSize": 15,
+                "paddingLeft": 5,
+                "textAlign": "center",
+              }
+            }
+          >
+            Continue with Facebook
+          </Text>
+        </View>
+      </RNGestureHandlerButton>
+      <RNGestureHandlerButton
+        collapsable={false}
+        onGestureEvent={[Function]}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        onHandlerStateChange={[Function]}
+        rippleColor={0}
+      >
+        <View
+          accessible={true}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#f9f9fb",
+              "borderRadius": 15,
+              "flexDirection": "row",
+              "height": 50,
+              "marginHorizontal": "5%",
+              "marginVertical": 5,
+              "opacity": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Image
+            height={20}
+            source={
+              Object {
+                "testUri": "../../../src/asserts/images/google.png",
+              }
+            }
+            style={
+              Object {
+                "marginLeft": 5,
+              }
+            }
+            width={20}
+          />
+          <Text
+            style={
+              Object {
+                "flex": 1,
+                "fontFamily": "Gilroy SemiBold",
+                "fontSize": 15,
+                "paddingLeft": 5,
+                "textAlign": "center",
+              }
+            }
+          >
+            Continue with Google
+          </Text>
+        </View>
+      </RNGestureHandlerButton>
+      <RNGestureHandlerButton
+        collapsable={false}
+        onGestureEvent={[Function]}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        onHandlerStateChange={[Function]}
+        rippleColor={0}
+      >
+        <View
+          accessible={true}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "#ABA2B0",
+              "borderRadius": 15,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "height": 50,
+              "marginHorizontal": "5%",
+              "marginVertical": 5,
+              "opacity": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Image
+            height={20}
+            source={
+              Object {
+                "testUri": "../../../src/asserts/images/email.png",
+              }
+            }
+            style={
+              Object {
+                "marginLeft": 5,
+              }
+            }
+            width={20}
+          />
+          <Text
+            style={
+              Object {
+                "flex": 1,
+                "fontFamily": "Gilroy SemiBold",
+                "fontSize": 15,
+                "paddingLeft": 5,
+                "textAlign": "center",
+              }
+            }
+          >
+            Continue with Email
+          </Text>
+        </View>
+      </RNGestureHandlerButton>
+    </View>
+  </View>,
+]
+`;

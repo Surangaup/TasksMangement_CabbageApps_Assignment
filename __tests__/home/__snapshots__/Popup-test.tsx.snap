@@ -1,0 +1,403 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popup snapshot 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "paddingBottom": 0,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 1000.5,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Gilroy Lite",
+          "fontSize": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      Create a task
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7D7A8C",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Task title
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      collapsable={false}
+      onChangeText={[Function]}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      placeholder="Task Title"
+      placeholderTextColor="#DADADF"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "backgroundColor": "#F7F8FA",
+          "borderColor": "#DADADF",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "color": "black",
+          "marginTop": 10,
+          "padding": 10,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+    <View
+      style={
+        Object {
+          "marginTop": 20,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#7D7A8C",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Task type
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#5A3EA4",
+            "borderRadius": 10,
+            "margin": 5,
+            "minWidth": 100,
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "black",
+              },
+              Object {
+                "color": "white",
+              },
+            ]
+          }
+        >
+          Important
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F7F8FA",
+            "borderRadius": 10,
+            "margin": 5,
+            "minWidth": 100,
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "black",
+              },
+              false,
+            ]
+          }
+        >
+          Planned
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 20,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#7D7A8C",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Choose date & time
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <RNGestureHandlerButton
+        collapsable={false}
+        onGestureEvent={[Function]}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        onHandlerStateChange={[Function]}
+        rippleColor={0}
+      >
+        <View
+          accessible={true}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#F7F8FA",
+              "borderRadius": 10,
+              "flexDirection": "row",
+              "margin": 5,
+              "minWidth": 100,
+              "opacity": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "fontWeight": "bold",
+                  "paddingRight": 5,
+                },
+                Object {
+                  "fontFamily": "Ionicons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            Select a date
+          </Text>
+        </View>
+      </RNGestureHandlerButton>
+      <RNGestureHandlerButton
+        collapsable={false}
+        onGestureEvent={[Function]}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        onHandlerStateChange={[Function]}
+        rippleColor={0}
+      >
+        <View
+          accessible={true}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#F7F8FA",
+              "borderRadius": 10,
+              "flexDirection": "row",
+              "margin": 5,
+              "minWidth": 100,
+              "opacity": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "fontWeight": "bold",
+                  "paddingRight": 5,
+                },
+                Object {
+                  "fontFamily": "Ionicons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            Select time
+          </Text>
+        </View>
+      </RNGestureHandlerButton>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 20,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text>
+        Get alert for this task
+      </Text>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#5A3EA4",
+            "borderRadius": 10,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "opacity": 1,
+            "paddingHorizontal": 10,
+            "paddingVertical": 5,
+            "width": 55,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+            }
+          }
+        >
+          On
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "borderRightWidth": 1,
+              },
+              Object {
+                "borderColor": "white",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#FD93A1",
+          "borderRadius": 10,
+          "bottom": "5%",
+          "elevation": 9,
+          "justifyContent": "center",
+          "minHeight": 50,
+          "opacity": 1,
+          "position": "absolute",
+          "shadowOpacity": 0.2,
+          "width": "100%",
+        }
+      }
+      testID="custom-btn"
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Done
+      </Text>
+    </View>
+  </View>
+</View>
+`;
